@@ -65,7 +65,7 @@ ollama serve
 Navigate to the project directory and run the Streamlit app using:
 
 ```bash
-streamlit run blog_generator_app.py
+streamlit run app.py
 ```
 
 ### Use the App
@@ -78,9 +78,9 @@ streamlit run blog_generator_app.py
 
 ```
 blog-generation-system/
-├── blog_generator_app.py       # Main Streamlit app code
-├── README.md                   # Project documentation
-└── requirements.txt            # List of dependencies
+├── app.py                               # Main Streamlit app code
+├── README.md                            # Project documentation
+└── requirements.txt                     # List of dependencies
 ```
 
 ## License
