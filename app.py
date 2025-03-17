@@ -1,12 +1,13 @@
 import streamlit as st
 import logging
-from langchain.llms import Ollama
+from langchain_community.llms import Ollama
+from langchain_community.tools import DuckDuckGoSearchRun
 from langchain.agents import initialize_agent, Tool
-from langchain.tools import DuckDuckGoSearchRun
 from langchain_community.tools import WikipediaQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from langchain_ollama import OllamaLLM
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
