@@ -14,6 +14,13 @@ This project is a Blog Generation System that utilizes Streamlit and Ollama to g
 - **Research Tools**: Uses DuckDuckGo Search and Wikipedia to gather information.
 - **Streamlit Interface**: Provides a simple web interface for users to input a topic and view the generated blog.
 - **Download Option**: Allows users to download the generated blog as a `.txt` file.
+---
+
+<img src="output.png" alt="workflow" width="70%">
+
+<img src="download.png" alt="workflow" width="70%">
+
+
 
 ---
 
@@ -36,7 +43,7 @@ Download and install Ollama from the official website: [Ollama](https://ollama.c
 
 ### Step 2: Pull the Gemma Model
 
-Run the following command to download the `gemma:2b` model:
+Run the following command to download the `gemma:2b` model in ollama application:
 
 ```bash
 ollama pull gemma:2b
@@ -47,7 +54,7 @@ ollama pull gemma:2b
 Install the necessary Python dependencies using pip:
 
 ```bash
-pip install streamlit langchain langchain-community duckduckgo-search wikipedia-api
+pip install -r requirements.txt
 ```
 
 ## Running the Project
@@ -82,6 +89,25 @@ blog-generation-system/
 ├── README.md                            # Project documentation
 └── requirements.txt                     # List of dependencies
 ```
+
+## output 
+
+##  **Exploring the Vibrant City of Bangalore**
+
+**Introduction:**
+Bangalore, the bustling capital of the southern state of Karnataka, is a city that embodies the spirit of India. From its ancient heritage to its modern cosmopolitan vibes, Bangalore offers a captivating experience for every traveler. This vibrant city is a melting pot of cultures, religions, and traditions, making it a destination that will leave you spellbound.
+
+**Key Points:**
+
+* **Cultural Heritage:** Explore the rich cultural heritage of Bangalore through its ancient temples, museums, and art forms. Visit the majestic Bangalore Palace, the magnificent Mysore Palace, and the intriguing ISKCON Temple.
+
+* **Modernity and Culture:** Discover the bustling urban landscape of Bangalore, with its towering skyscrapers, shopping malls, and entertainment hubs. The city is also home to numerous cultural events, including the Bangalore International Film Festival and the Bangalore Literature Festival.
+
+* **Natural Beauty:** Step into nature and immerse yourself in the scenic beauty of Bangalore. Visit the Lalbagh Botanical Garden, the Indira Gandhi National Park, and the Kemmangundi Hills for breathtaking landscapes and wildlife encounters.
+
+**Conclusion:**
+Bangalore is a city that offers a delightful blend of history, culture, and modernity. Whether you're seeking spiritual solace, a cultural immersion, or an escape into nature, Bangalore has something for you. From its ancient temples to its modern museums and parks, this vibrant city will leave you with unforgettable memories.
+
 
 ## License
 
