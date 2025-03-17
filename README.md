@@ -122,7 +122,10 @@ Bangalore is a city that offers a delightful blend of history, culture, and mode
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-## Contributing
+## author
 
-Feel free to contribute by submitting pull requests or reporting issues.
-
+``` bash
+author : KUSHAL S
+gmail : kushals1992003@gmail.com
+github : https://github.com/Kushal19903/blog-agent
+```
