@@ -16,6 +16,9 @@ This project is a Blog Generation System that utilizes Streamlit and Ollama to g
 - **Download Option**: Allows users to download the generated blog as a `.txt` file.
 ---
 
+## output images
+
+
 <img src="output.png" alt="workflow" width="70%">
 
 <img src="download.png" alt="workflow" width="70%">
@@ -80,6 +83,12 @@ streamlit run app.py
 1. Open the URL displayed in the terminal (usually [http://localhost:8501](http://localhost:8501)).
 2. Enter a blog topic in the input field and click **Generate Blog**.
 3. View the generated blog and download it using the **Download Blog** button.
+
+## you can download blog
+
+```bash
+download.txt
+```
 
 ## Project Structure
 
