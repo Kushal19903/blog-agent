@@ -1,6 +1,8 @@
-streamlit==1.32.0
-langchain==0.1.0
-langchain-community==0.0.1
-ollama==0.1.0
-duckduckgo-search==3.9.1
-wikipedia-api==0.6.0
+streamlit
+langchain
+langchain-community
+langchain-ollama 
+ollama
+duckduckgo-search
+wikipedia
+wikipedia-api
